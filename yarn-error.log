@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.5.1/bin/yarn.js install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.11.2
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "express-redis",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "Hugo Di Francesco",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.16.3",
+      "redis": "^2.8.0",
+      "bitbox-sdk": "^5.1.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (/opt/yarn-v1.5.1/lib/cli.js:186:110)
+      at checkOne (/opt/yarn-v1.5.1/lib/cli.js:62444:11)
+      at Object.check (/opt/yarn-v1.5.1/lib/cli.js:62463:5)
+      at /opt/yarn-v1.5.1/lib/cli.js:22803:73
+      at Generator.next (<anonymous>)
+      at step (/opt/yarn-v1.5.1/lib/cli.js:98:30)
+      at /opt/yarn-v1.5.1/lib/cli.js:109:13
+      at <anonymous>
